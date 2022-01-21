@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background: #000;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 30px;
+}
+
+.navbar ul li a:hover {
+    color: darkorange;
+    background: rgba(255, 255, 255, 0.2);
+}
