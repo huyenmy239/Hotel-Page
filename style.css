@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -72,7 +73,7 @@ header {
     font-size: 20px;
 }
 
-.home .btn {
+.btn {
     margin-top: 30px;
     padding: 15px 20px;
     border: none;
@@ -80,11 +81,75 @@ header {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    background: #555;
+    background: rgba(0, 0, 0, .6);
 }
 
-.home .btn:hover {
+.btn:hover {
     color: #fff;
     background-color: darkorange;
     cursor: pointer;
+}
+
+.home-info {
+    height: 50vh;
+    display: flex;
+}
+
+.home-info .item {
+    width: 50%;
+}
+
+.home-info .content {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.content .title {
+    margin: 40px 0 30px;
+}
+
+.content .desc {
+    padding: 0 30px;
+}
+
+.content .readmore {
+    margin: 40px 0;
+    background: #fff;
+    color: #000;
+    font-weight: 500;
+}
+
+.content .readmore:hover {
+    background-color: darkorange;
+}
+
+.home-features {
+    display: flex;
+    color: #000;
+}
+
+.home-features .item {
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.home-features .item i {
+    font-size: 50px;
+    padding: 30px 0 10px;
+}
+
+.home-features .unique {
+    background-color: rgba(255, 140, 0, 0.6);
+}
+
+.home-features .desc {
+    padding: 40px 30px;
+}
+
+footer {
+    height: 7vh;
+    line-height: 7vh;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
 }
