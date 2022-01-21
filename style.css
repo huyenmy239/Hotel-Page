@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
@@ -31,15 +33,58 @@ header {
     max-width: 1000px;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .navbar ul {
     display: flex;
 }
 
 .navbar ul li a {
-    padding: 10px 30px;
+    padding: 15px 30px;
 }
 
 .navbar ul li a:hover {
     color: darkorange;
     background: rgba(255, 255, 255, 0.2);
+}
+
+.home {
+    height: 100vh;
+    padding: 250px;
+    background: url(./images/background.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.home .title {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: darkorange;
+}
+
+.home .desc {
+    font-size: 20px;
+}
+
+.home .btn {
+    margin-top: 30px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #555;
+}
+
+.home .btn:hover {
+    color: #fff;
+    background-color: darkorange;
+    cursor: pointer;
 }
