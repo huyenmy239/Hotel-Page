@@ -22,6 +22,8 @@ ul {
     list-style-type: none;
 }
 
+
+/* Home main */
 header {
     background: #000;
 }
@@ -90,6 +92,8 @@ header {
     cursor: pointer;
 }
 
+
+/* Home Info */
 .home-info {
     height: 50vh;
     display: flex;
@@ -123,6 +127,8 @@ header {
     background-color: darkorange;
 }
 
+
+/* Home Features */
 .home-features {
     display: flex;
     color: #000;
@@ -152,4 +158,76 @@ footer {
     color: #fff;
     background-color: #000;
     text-align: center;
+}
+
+
+/* About Info */
+.about-info,
+.comments {
+    color: #000;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+}
+
+.about-info .item {
+    
+}
+
+.about-info .item.right {
+    padding: 20px;
+}
+
+.about-info .item.left {
+    padding: 0 200px;
+}
+
+.about-info .item .title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-info .item .para {
+    margin-top: 20px;
+}
+
+.about-info .item img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+
+/* About Commens */
+.comments {
+    height: 100vh;
+    background: url(./images/bg-comment.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.comments .title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.comments .comment {
+    background-color: rgba(255, 140, 0, .9);
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.comments .comment img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
