@@ -194,7 +194,11 @@ header {
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 0 200px;
+    justify-content: center;
+}
+
+.comments .wrapper {
+    width: 1000px;
 }
 
 .comments .title {
